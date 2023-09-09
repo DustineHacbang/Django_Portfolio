@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block css_files %}
+
+<link rel="stylesheet" href="{%static 'index.css'%}">
+
+{% endblock %}
+
+
+    {% block page_title %} 
+        Daily Quotes
+    {% endblock %}
+
+    {% block content %}    
+        <h1> Daily Quotes </h1>
+        <ul> 
+            <!-- {% for month in months %}
+                <li> <a href="" ></a></li>
+            {% endfor %} -->
+        </ul>
+    {% endblock  %}   
